@@ -23,10 +23,3 @@ export function load_places(){
   var apiURL = 'https://api.foursquare.com/v2/venues/search?client_id=QSONAEFVY2IEDP210WA1ZEQ0EAL3YI3PBBMARZXT003OFCO3&client_secret=4C3DVOAKAAAFKFED2KQ2KTNC3GDCZZLR1O5OAEPMPVRKALD1&limit=50&near=' + city + '&query=' + query + '' + '&v=' + version;
   return fetch(apiURL).then(resp => resp.json())
 }
-
-/* export function selling_items() {
-
-var items = 'https://beautifullytwistedmind.net/Udacity/ebay-JSON.json';
-return fetch(items).then(resp => resp.json())
-
-}*/
