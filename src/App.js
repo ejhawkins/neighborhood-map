@@ -77,7 +77,7 @@ filterVenues(query){
 	let f = this.venues.filter(venue => venue.name.toLowerCase().includes(query.toLowerCase()));
 	
 	this.markers.forEach(marker => {
-		marker.name.toLowerCase().includes(query.toLowerCase()) == true ?
+		marker.name.toLowerCase().includes(query.toLowerCase()) === true ?
 		marker.setVisible(true) :
 		marker.setVisible(false);
 	});
