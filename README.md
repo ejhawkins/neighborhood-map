@@ -1,4 +1,4 @@
-<img src="https://imgur.com/SsbDCJR">
+<img src="Screen Shot 2019-09-24 at 1.52.24 PM.png">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app
 
